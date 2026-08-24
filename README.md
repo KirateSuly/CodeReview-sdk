@@ -3,7 +3,7 @@
 # 仓库配置完action secrets
 # env:
 # Github 配置
-# GITHUB_REVIEW_LOG_URI: ${{ secrets.CODE_REVIEW_LOG_URI }}
+GITHUB_REVIEW_LOG_URI: ${{ secrets.CODE_REVIEW_LOG_URI }}
 GITHUB_TOKEN: ${{ secrets.CODE_TOKEN }}
 # 微信配置
 WEIXIN_APPID: ${{ secrets.WEIXIN_APPID }}
