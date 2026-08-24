@@ -9,17 +9,6 @@
 3. **记录结果** —— 将评审结果以 Markdown 形式提交并推送到日志仓库
 4. **消息通知** —— 通过微信公众号模板消息推送评审日志链接
 
-## 项目结构
-
-```
-openai-code-review
-├── openai-code-review-sdk      # 核心 SDK，打包成 jar 执行评审
-├── openai-code-review-test     # 测试模块
-└── .github/workflows
-    ├── main-remote-jar.yml     # 下载远程 jar 运行（正式使用）
-    ├── main-maven-jar.yml      # 本地 Maven 构建 jar 运行
-    └── main-local.yml          # 本地 javac 编译运行（调试用）
-```
 
 ## 使用方法
 
